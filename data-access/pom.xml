@@ -9,7 +9,5 @@
     </parent>
     <artifactId>data-access</artifactId>
     <version>${revision}</version>
-	<packaging>pom</packaging>
-
 
 </project>
