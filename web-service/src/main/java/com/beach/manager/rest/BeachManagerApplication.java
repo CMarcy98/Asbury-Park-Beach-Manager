@@ -1,12 +1,12 @@
-package com.intern.squad.rest;
+package com.beach.manager.rest;
 
-import com.intern.squad.service.profile.ProfileService;
+import com.beach.manager.service.profile.ProfileService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class InternSquadApplication {
+public class BeachManagerApplication {
 
 	@Bean
 	public ProfileService profileService() {
@@ -14,7 +14,7 @@ public class InternSquadApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(InternSquadApplication.class, args);
+		SpringApplication.run(BeachManagerApplication.class, args);
 	}
 
 }

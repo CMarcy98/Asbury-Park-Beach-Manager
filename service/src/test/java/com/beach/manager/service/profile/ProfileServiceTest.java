@@ -1,4 +1,4 @@
-package com.intern.squad.service.profile;
+package com.beach.manager.service.profile;
 
 import org.mockito.*;
 import org.mockito.runners.MockitoJUnitRunner;

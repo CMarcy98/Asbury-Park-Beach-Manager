@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<!-- Current Project Info -->
-	<groupId>com.intern.squad</groupId>
-	<artifactId>intern-squad</artifactId>
+	<groupId>com.beach.manager</groupId>
+	<artifactId>beach-manager</artifactId>
 	<version>${revision}</version>
 	<packaging>pom</packaging>
 
@@ -24,7 +24,6 @@
 		<spring.boot.starter.version>2.4.4</spring.boot.starter.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
    		<maven.compiler.target>1.8</maven.compiler.target>
-		<start-class>com.intern.squad.rest.InternSquadApplication</start-class>
 	</properties>
 
 	<!-- Dependency Management -->
@@ -75,7 +74,7 @@
 						<configuration>
 							<classifier>spring-boot</classifier>
 							<mainClass>
-								com.intern.squad.rest.InternSquadApplication
+								com.beach.manager.rest.BeachManagerApplication
 							</mainClass>
 						</configuration>
 					</execution>

@@ -3,8 +3,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.intern.squad</groupId>
-        <artifactId>intern-squad</artifactId>
+        <groupId>com.beach.manager</groupId>
+        <artifactId>beach-manager</artifactId>
         <version>${revision}</version>
     </parent>
     <artifactId>service</artifactId>
