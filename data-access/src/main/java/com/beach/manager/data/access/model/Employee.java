@@ -1,4 +1,4 @@
-package com.beach.manager.model;
+package com.beach.manager.data.access.model;
 
 import java.math.BigDecimal;
 

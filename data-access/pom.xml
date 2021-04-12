@@ -10,4 +10,11 @@
     <artifactId>data-access</artifactId>
     <version>${revision}</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>

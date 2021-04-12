@@ -1,2 +1,21 @@
+spring:
+  datasource:
+    jdbc-url: jdbc:mysql://${db.host}:3306/${db.dbName}?autoReconnect=true&useSSL=false
+    driverClassName: com.mysql.jdbc.Driver
+    username: ${db.username}
+    password: ${db.password}
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+
+
+flyway:
+  locations: db/migration
+  baseline:
+    version: 0
+  target:
+    version: 9999
+
+
 server:
   port : 9000
