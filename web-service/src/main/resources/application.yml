@@ -1,6 +1,6 @@
 spring:
   datasource:
-    jdbc-url: jdbc:mysql://${db.host}:3306/${db.dbName}?autoReconnect=true&useSSL=false
+    jdbc-url: jdbc:mysql://127.0.0.1:3306/${db.dbName}?user=${db.username}?autoReconnect=true&useSSL=false
     driverClassName: com.mysql.jdbc.Driver
     username: ${db.username}
     password: ${db.password}
